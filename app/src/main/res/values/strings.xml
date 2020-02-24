@@ -1,0 +1,21 @@
+<resources>
+    <string name="nombre_app">Pokefanatic</string>
+    <string name="opcion_menu_favoritos">Favoritos</string>
+    <string name="opcion_menu_busqueda">Buscar</string>
+    <string name="opcion_menu_recargar">Recargar</string>
+    <string name="opcion_contextual_fotos_internet1">Guardar en fototeca</string>
+    <string name="opcion_contextual_fotos_internet2">Establecer como fondo</string>
+    <string name="opcion_contextual_fotos_internet3">Borrar de fototeca</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_detalles">Detalles</string>
+    <string name="title_activity_fotos_internet">Fotos Flickr</string>
+    <string name="channel1_name">Pokefanatics</string>
+    <string name="channel1_description">Imagen guardada en fototeca</string>
+    <string name="descripcion">Descripción</string>
+    <string name="numero">Número:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="verenflickr">Ver fotos en Flickr</string>
+    <string name="foto">Foto</string>
+    <string name="nombre">Nombre</string>
+
+</resources>

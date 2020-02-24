@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Detalles"
+    tools:showIn="@layout/activity_detalles">
+
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="217dp"
+        android:layout_height="39dp"
+        android:background="@drawable/textview2_background"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_foto"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/tv_titulo_desc"
+        android:layout_width="209dp"
+        android:layout_height="31dp"
+        android:background="@drawable/textview1_background"
+        android:text="@string/descripcion"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_respuesta_tipo"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/tv_titulo_numero"
+        android:layout_width="136dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview1_background"
+        android:text="@string/numero"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nombre" />
+
+    <TextView
+        android:id="@+id/tv_titulo_tipo"
+        android:layout_width="136dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:background="@drawable/textview1_background"
+        android:text="@string/tipo"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_numero"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <TextView
+        android:id="@+id/tv_respuesta_num"
+        android:layout_width="177dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview2_background"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_titulo_numero"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nombre" />
+
+    <TextView
+        android:id="@+id/tv_respuesta_tipo"
+        android:layout_width="177dp"
+        android:layout_height="30dp"
+        android:background="@drawable/textview2_background"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_titulo_tipo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_respuesta_num"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <TextView
+        android:id="@+id/tv_respuesta_desc"
+        android:layout_width="372dp"
+        android:layout_height="122dp"
+        android:background="@drawable/textview2_background"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_desc"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <ImageView
+        android:id="@+id/iv_foto"
+        android:contentDescription="@string/descripcion"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/imageview1_background"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pokeball_abierta" />
+
+    <Button
+        android:id="@+id/btn_fotos_internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton1_background"
+        android:padding="10dp"
+        android:text="@string/verenflickr"
+        android:textColor="@color/color2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_respuesta_desc"
+        app:layout_constraintVertical_bias="0.305" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

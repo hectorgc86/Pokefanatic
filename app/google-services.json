@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "327785751313",
+    "firebase_url": "https://pokefanatic-ac32c.firebaseio.com",
+    "project_id": "pokefanatic-ac32c",
+    "storage_bucket": "pokefanatic-ac32c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327785751313:android:8ded3577dcfec2008fa2b0",
+        "android_client_info": {
+          "package_name": "com.hector.proyectofinalbloque2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327785751313-p6idri6h49p91a8l3ttene6rs685rps6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hector.proyectofinalbloque2",
+            "certificate_hash": "e8bb5b891a232b836150225ef5291cf963e9555e"
+          }
+        },
+        {
+          "client_id": "327785751313-709cinemc1tguni99nc98dj7lddjolm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAirWJh_NQ1nra3H73yFsIybQPNbHKvCoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327785751313-709cinemc1tguni99nc98dj7lddjolm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

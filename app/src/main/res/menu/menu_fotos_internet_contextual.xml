@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/contextual_fondopantalla"
+        android:title="@string/opcion_contextual_fotos_internet2" />
+    <item
+        android:id="@+id/contextual_guardar"
+        android:title="@string/opcion_contextual_fotos_internet1" />
+</menu>
